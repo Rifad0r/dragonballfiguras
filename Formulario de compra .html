@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de Compra</title>
+</head>
+<body style="background-image: url('./imagenes/FonDB.jpg');
+        background-size: cover 
+        background-repeat no-repeat;
+        background-position-x: center;">
+    <center>
+  <header>
+      <div>
+        <img width="400px" src="./imagenes/Dragon_Ball_Z_Logo_B.png">
+
+
+      </div>
+  </header>
+  </center>
+  <center>
+
+
+
+
+ 
+
+<h2 style="text-align: center; color: black;">Formulario de Compra</h2>
+
+  <form action="mailto:tucorreo@gmail.com" method="post" enctype="text/plain">
+    <table border="1" cellpadding="10" cellspacing="0" align="center" style="background-color: orangered; border: 2px solid black;">
+      <tr>
+        <td><label>Nombre:</label></td>
+        <td><input type="text" name="nombre" required></td>
+      </tr>
+      <tr>
+        <td><label>Correo electrónico:</label></td>
+        <td><input type="email" name="correo" required></td>
+      </tr>
+      <tr>
+        <td><label for="producto"><b>Selecciona el producto deseado:</b></label></td>
+        <td>
+          <select name="producto" required>
+            <option value="Goku Super Saiyan (Saga Namek)">Goku Super Saiyan (Saga Namek)</option>
+            <option value="Vegeta Super Saiyan (Saga Androide)">Vegeta Super Saiyan (Saga Androide)</option>
+            <option value="Gohan Super Saiyan (Saga de Cell)">Gohan Super Saiyan (Saga de Cell)</option>
+            <option value="Gohan del futuro Super Saiyan">Gohan del futuro Super Saiyan</option>
+            <option value="Trunks Super Saiyan">Trunks Super Saiyan</option>
+            <option value="Goku Super Saiyan 4">Goku Super Saiyan 4</option>
+            <option value="Goku Super Saiyan Blue (Película Broly)">Goku Super Saiyan Blue (Película Broly)</option>
+            <option value="Gogeta Super Saiyan Blue (Dragon Ball Super Broly)">Gogeta Super Saiyan Blue (Dragon Ball Super Broly)</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="pago"><b>Selecciona la forma de pago:</b></label></td>
+        <td>
+          <select name="pago" required>
+            <option value="Efectivo">Efectivo</option>
+            <option value="Tarjeta de C/D">Tarjeta de C/D</option>
+            <option value="Transferencia">Transferencia</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center">
+          <input type="submit" value="Enviar">
+        </td>
+      </tr>
+    </table>
+  </form>
+
+</body>
+</html>
